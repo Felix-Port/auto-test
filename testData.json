@@ -1,0 +1,26 @@
+{
+  "validUser": {
+    "phone": "8143311412",
+    "passcode": "159753"
+  },
+  "invalidUser": {
+    "phone": "0000000000",
+    "passcode": "000000"
+  },
+  "wrongPasscode": {
+    "phone": "8143311412",
+    "passcode": "999999"
+  },
+  "transfer": {
+    "validRecipient": "8100000001",
+    "invalidRecipient": "0000000000",
+    "amount": "500",
+    "largeAmount": "9999999",
+    "zeroAmount": "0",
+    "narration": "Test transfer - E2E automation"
+  },
+  "wallet": {
+    "topUpAmount": "1000",
+    "invalidAmount": "-100"
+  }
+}

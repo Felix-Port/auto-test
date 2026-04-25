@@ -1,0 +1,18 @@
+{
+  "name": "zenpay-e2e-tests",
+  "version": "1.0.0",
+  "description": "Cypress E2E Test Suite for ZenPay by Zenith (SIT Environment)",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:smoke": "cypress run --spec 'cypress/e2e/00-smoke-tests.cy.js'",
+    "cy:auth": "cypress run --spec 'cypress/e2e/01-authentication.cy.js'",
+    "cy:wallet": "cypress run --spec 'cypress/e2e/02-wallet-management.cy.js'",
+    "cy:payments": "cypress run --spec 'cypress/e2e/03-payments-transfers.cy.js'",
+    "cy:history": "cypress run --spec 'cypress/e2e/04-transaction-history.cy.js'",
+    "cy:regression": "cypress run --spec 'cypress/e2e/**/*.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
