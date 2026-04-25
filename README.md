@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZenPay E2E Test Suite (Cypress)
 > Automated End-to-End tests for **ZenPay by Zenith** — SIT Environment
 
@@ -127,3 +128,6 @@ Tests use **Page Object Models (POMs)** to separate selectors and actions from t
 2. **Session caching**: `cy.login()` uses `cy.session()` to avoid re-logging in for every test — speeds up execution.
 3. **SIT environment only**: These tests target the SIT environment. Update `baseUrl` in `cypress.config.js` for other environments.
 4. **Flaky tests**: Set `retries: 2` is configured for CI to handle transient network issues.
+=======
+# auto-test
+>>>>>>> 2bf1e5b0937361c2aba7f8e7dc1d69472b7e3ab1
